@@ -1,6 +1,6 @@
-import { BigCat } from "./BigCat";
+import { Mammal } from "./Mammal";
 
-export class Jaguar extends BigCat {
+export class Jaguar extends Mammal {
     constructor(weight) {
         super(weight);
     }
@@ -11,9 +11,5 @@ export class Jaguar extends BigCat {
 
     feed() {
         return "I am eating ...";
-    }
-
-    run() {
-        return "I am fast, zoom zoom";
     }
 }
